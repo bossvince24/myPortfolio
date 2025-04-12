@@ -1,8 +1,11 @@
 {
+  "homepage": "https://bossvince24.github.io/portfolio-react",
   "name": "portfolio-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "My portfolio website built with React and Vite",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
