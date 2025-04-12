@@ -1,0 +1,196 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 80px 170px;
+}
+.experience-title {
+    text-align: center;
+}
+.experience-title h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+.vertical-timeline-element-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #DA7C25;
+}
+.vertical-timeline-element-description {
+    font-size: 16px;
+    color: #DA7C25;
+}
+.vertical-timeline-element-date {
+    font-size: 14px;
+    color: #B0B0B0;
+}
+.vertical-timeline-element-content {
+    background: #1E1E1E;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+}
+.vertical-timeline-element-content:hover {
+    transform: scale(1.02);
+    transition: transform 0,3s ease;
+}
+.vertical-timeline-element-icon {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.vertical-timeline-element-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+@media (max-width: 1440px) {
+    .experience {
+        margin: 60px 120px;
+        gap: 70px;
+    }
+    .experience-title h1 {
+        font-size: 60px;
+        padding: 0;
+        margin-top: 40px;
+    }
+    .vertical-timeline-element-title {
+        font-size: 18px;
+    }
+    .vertical-timeline-element-description {
+        font-size: 15px;
+    }
+}
+@media (max-width: 1024px) {
+    .experience {
+        margin: 50px 100px;
+        gap: 40px;
+    }
+    .experience-title h1 {
+        font-size: 50px;
+        padding: 0;
+        margin-top: 40px;
+    }
+    .vertical-timeline-element-title {
+        font-size: 20px;
+    }
+    .vertical-timeline-element-description {
+        font-size: 18px;
+    }
+    .vertical-timeline-element-content {
+        padding: 15px;
+    }
+    .vertical-timeline-element-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+    }
+}
+@media (max-width: 768px) {
+    .experience {
+        margin: 40px 50px;
+        gap: 40px;
+    }
+    .experience-title h1 {
+        font-size: 45px;
+        padding: 0;
+    }
+    .vertical-timeline-element-title {
+        font-size: 20px;
+    }
+    .vertical-timeline-element-description {
+        font-size: 18px;
+    }
+    .vertical-timeline-element-content {
+        padding: 12px;
+    }
+    .vertical-timeline-element-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .experience {
+        margin: 30px 40px;
+        gap: 25px;
+    }
+    .experience-title h1 {
+        font-size: 40px;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    .vertical-timeline-element-title {
+        font-size: 20px;
+    }
+    .vertical-timeline-element-description {
+        font-size: 18px;
+    }
+    .vertical-timeline-element-content {
+        padding: 10px;
+    }
+    .vertical-timeline-element-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 480px) {
+    .experience {
+        margin: 20px;
+        gap: 20px;
+    }
+    .experience-title h1 {
+        font-size: 35px;
+        padding: 10px;
+    }
+    .vertical-timeline-element-title {
+        font-size: 20px;
+    }
+    .vertical-timeline-element-description {
+        font-size: 18px;
+    }
+    .vertical-timeline-element-content {
+        padding: 8px;
+    }
+    .vertical-timeline-element-icon {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 375px) {
+    .experience {
+        margin: 15px;
+        gap: 15px;
+    }
+    .experience-title h1 {
+        font-size: 35px;
+        padding: 0;
+    }
+    .vertical-timeline-element-title {
+        font-size: 20px;
+    }
+    .vertical-timeline-element-description {
+        font-size: 18px;
+    }
+    .vertical-timeline-element-content {
+        padding: 6px;
+    }
+    .vertical-timeline-element-icon {
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+    }
+}
